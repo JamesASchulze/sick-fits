@@ -4,7 +4,6 @@ import Link from 'next/link';
 const Home = props => (
    <div>
       <p>Howdy, this is the Home Page!</p>
-
    </div>
 )
 
