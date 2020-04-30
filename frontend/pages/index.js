@@ -1,9 +1,9 @@
-import Link from 'next/link';
+import Items from '../components/Items';
 
 // This is a Stateless Functional Component
 const Home = props => (
    <div>
-      <p>Howdy, this is the Home Page!</p>
+      <Items />
    </div>
 )
 
