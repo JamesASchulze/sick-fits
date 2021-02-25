@@ -1,10 +1,8 @@
-import Items from '../components/Items';
-
-// This is a Stateless Functional Component
-const Home = props => (
-   <div>
-      <Items />
-   </div>
-)
-
-export default Home;
+export default function IndexPage() {
+  return (
+    <>
+      <p>Hello</p>
+      <code>var</code>
+    </>
+  );
+}
