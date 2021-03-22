@@ -42,7 +42,7 @@ export default function Header() {
         </Logo>
       </div>
       <div className="sub-bar">
-        <p>search</p>
+        <p>Search</p>
       </div>
       <Nav />
     </HeaderStyles>
