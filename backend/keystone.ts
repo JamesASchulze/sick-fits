@@ -3,7 +3,7 @@ import { User } from './schemas/User';
 import { config, createSchema } from '@keystone-next/keystone/schema';
 import 'dotenv/config';
 import { withItemData, statelessSessions } from '@keystone-next/keystone/session';
-import { Product } from './schemas/Products';
+import { Product } from './schemas/Product';
 import { ProductImage } from './schemas/ProductImage';
 
 const databaseURL = process.env.DATABASE_URL || 'mongodb://localhost/keystone-sick-fits-tutorial';
